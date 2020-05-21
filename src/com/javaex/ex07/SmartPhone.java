@@ -6,10 +6,10 @@ public class SmartPhone extends MusicPhone {
         
         //코드작성
         if(str.equals("앱")) {
-        	this.app();
+        	this.App();
         }
         else if(str.equals("음악")) {
-        	this.downmusic();
+        	playMusic();
         }
         else {
         	super.execute(str);
@@ -18,11 +18,11 @@ public class SmartPhone extends MusicPhone {
     }
  
     //메소드작성
-    public void app() {
+    public void App() {
     	System.out.println("앱실행");
     }
     //메소드작성
-    public void downmusic() {
+    public void playMusic() {
     	System.out.println("다운로드해서 음악재생");
     }
     
