@@ -4,9 +4,9 @@ public class MusicPhone extends Phone{
     
     public void execute(String str){
         
-        if("음악".equals(str)){
+        if("음악".equals(str)){//음악이면 playMusic 실행
             playMusic();
-        }else{
+        }else{//아니면 phone에 execute(str)실행
             super.execute(str);
         }
         
