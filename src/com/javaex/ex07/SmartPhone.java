@@ -8,7 +8,6 @@ public class SmartPhone extends MusicPhone {
         if(str.equals("앱")) {
         	this.App();
         }
-
         else {
         	super.execute(str);
         }
@@ -20,7 +19,7 @@ public class SmartPhone extends MusicPhone {
     	System.out.println("앱실행");
     }
     //메소드작성
-    public void playMusic() {	//앱이아니고 다른거면 playmusic 실행 
+    public void playMusic() {	//앱이아니고 다른거면 playmusic 실행 부모
     	System.out.println("다운로드해서 음악재생");
     }
     
